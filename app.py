@@ -20,7 +20,7 @@ productos = [
 df_productos = pd.DataFrame(productos)
 
 # --- INTERFAZ ---
-st.title("⚡ Tienda de Electrodomésticos - Examen I Parcial")
+st.title("⚡ Tienda de Electrodomésticos - Examen I Parcial José Manuel Ramirez")
 st.markdown("---")
 
 # A) Catálogo y Filtros
@@ -80,4 +80,5 @@ if st.button("Generar Factura"):
                 "Monto (L.)": [f"{subtotal_prod:,.2f}", f"{isv:,.2f}", f"**{total_pagar:,.2f}**"]
             }))
         
+
         st.success("¡Factura generada con éxito!")
